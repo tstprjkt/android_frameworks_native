@@ -21,6 +21,8 @@ cc_library {
         "-Wall",
         "-Wextra",
         "-Werror",
+        "-O3",
+        "-g0",
     ],
     srcs: [
         "Input.cpp",
